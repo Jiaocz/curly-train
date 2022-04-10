@@ -26,3 +26,4 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           member-list: "https://raw.githubusercontent.com/travellings-link/travellings/master/member.md"
+          labels: "invalid"
