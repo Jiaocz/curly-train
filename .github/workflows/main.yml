@@ -19,7 +19,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Test action
-        uses: Jiaocz/travellings-link-checker@main
+        uses: Jiaocz/travellings-link-checker@v1
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           member-list: "https://raw.githubusercontent.com/travellings-link/travellings/master/member.md"
